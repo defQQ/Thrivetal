@@ -6,7 +6,7 @@
 
 header {
     background: #F4F9E2;
-    max-width: 1117px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -131,7 +131,20 @@ header {
     color: #FAB63E;
 }
 
-.header-image {
+.header-mask {
+    width: 910.71px;
+    height: 544.93px;
+    border-radius: 312.159px;
+    background: url(imgs/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(-17deg);
+    position: relative;
+    top: 77px;
+    left: 71px;
+}
+
+/* .header-image {
     background: url(imgs/header.png);
     width: 743px;
     height: 750px;
@@ -141,11 +154,12 @@ header {
     right: -150px;
     top: -52px;
     z-index: -1;
-}
+} */
 
 .container {
     display: flex;
     position: relative;
+    overflow: hidden;
 }
 
 /* home */
