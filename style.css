@@ -308,4 +308,121 @@ header {
     line-height: 12px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.contact-title {
+    font-size: 64px;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin-top: 230px;
+}
+
+.contact-text {
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    margin-top: 75px;
+    width: 579px;
+}
+
+.contact-link {
+    margin-top: 50px;
+}
+
+.contact-link a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #62D0DF;
+}
+
+.contact-footer-container {
+    display: flex;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.contact-footer-img {
+    background: url(imgs/contact.png);
+    width: 570px;
+    height: 380px;
+}
+
+.contact-footer-descr {
+    display: flex;
+    padding-left: 70px;
+}
+
+.contact-footer-some-info {
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+    width: 207px;
+    height: 115px;
+    color: rgba(34, 53, 111, 0.5);
+}
+
+.contact-footer-enfold {
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+    color: rgba(34, 53, 111, 0.5);
+    width: 240px;
+    height: 115px;
+    margin-left: 50px;
+}
+
+.contact-footer-some-office {
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    width: 240px;
+    height: 115px;
+    color: rgba(34, 53, 111, 0.5);
+    margin-left: 50px;
+}
+
+.contact-footer-link {
+    padding-top: 40px;
+}
+
+.contact-footer-link a {
+    text-decoration: none;
+}
+
+.contact-footer-h1 {
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #22356F;
+    padding-top: 100px;
+    font-weight: bold;
+}
+
+.contact-footer-text {
+    padding-top: 30px;
+    margin-right: 55px;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    margin: auto;
+    max-width: 1440px;
+    background: #62D0DF;
+    padding-top: 32px;
+    padding-bottom: 36px;
+}
+
+.footer-container {
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    padding-left: 194px;
+    font-weight: bold;
 }
